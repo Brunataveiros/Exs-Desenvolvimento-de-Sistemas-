@@ -1,0 +1,14 @@
+def substitui(vet):
+    for i in range(30):
+         if vet[i] >= 0:
+            vet[i] = 1
+         else:
+            vet[i] = 0
+    return vet
+ 
+vet = [0]*30
+for i in range(30):
+    vet[i] = int(input("Digite um valor: "))
+print (vet)
+substitui (vet)
+print (vet)
